@@ -1,2 +1,25 @@
 JsSimpleUnit is an extremely simple JavaScript testing framework.
 
+Example:
+
+<html>
+  <head>
+    <script type="text/javascript" src="script/JsSimpleUnit.js"></script>
+    <link href="JsSimpleUnit.css" rel="stylesheet" type="text/css">
+    <title>Sample Usage</title>
+  </head
+  <body>
+  
+  </body>
+  
+  <script type="text/javascript">
+    test(
+      {
+        sillyTest: function() {
+          test.assertEquals(1, 1);
+        }  
+      }
+    );
+  </script>
+  
+</html>

@@ -1,3 +1,6 @@
+// Copyright © 2009 James Suchy.
+// JsSimpleUnit Copyrights and all included source files are distributed under terms of the GNU LGPL.
+
 function test(tests) {
   var passed = 0;
   var failed = 0 ;
